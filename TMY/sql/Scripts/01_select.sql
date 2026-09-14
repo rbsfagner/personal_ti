@@ -4,9 +4,3 @@ SELECT idCliente,
 FROM clientes ;
 
 
-
--- Teste de comentario
-/*ctrl+shift+q
-
-Teste de teclado 
-
