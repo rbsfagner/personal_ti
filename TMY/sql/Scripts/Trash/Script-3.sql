@@ -1,3 +1,0 @@
-SELECT 	idCliente ,
-
-from clientes;
