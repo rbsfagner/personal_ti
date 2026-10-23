@@ -10,3 +10,4 @@ where t1.DtCriacao >= '2024-01-01'
 and t1.DtCriacao < '2025-01-01'
 
 
+--parei no 24-38
