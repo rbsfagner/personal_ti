@@ -1,5 +1,0 @@
-#print("Hello World")
-nome = input("Digite seu nome: ")
-idade = input("Digite sua idade: ")
-print("Meu nome é",nome,"e minha idade é",idade)
-print(type(nome))
