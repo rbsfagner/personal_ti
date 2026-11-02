@@ -28,5 +28,6 @@ df["qtdePontos"].describe()
 # %%
 #chamando nunmpy para apliar log 
 np.log(df["qtdePontos"] + 1)
-
 # %%
+
+# Parei na parte de ordenação
