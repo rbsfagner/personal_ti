@@ -21,13 +21,14 @@ predict = reg.predict(X.drop_duplicates())
 
 # %%
 import matplotlib.pyplot as plt
-plt.plot(X["cerveja"], y, 'o')
+
+plt.plot(X["cerveja"], y, "o")
 plt.grid(True)
 plt.title("Relação de cerveja VS Nota")
 plt.xlabel("Cerveja")
+plt.ylabel("Nota")
 
-plt.plot(X.drop_duplicates()['cerveja'], predict)
+plt.plot(X.drop_duplicates()["cerveja"], predict)
+
+plt.legend(["Obsersado", f"y= {a:.3f} + {b:.3f} x"])
 # %%
-
-
-Parei no 9:48
