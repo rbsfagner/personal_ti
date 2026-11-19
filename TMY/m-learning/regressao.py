@@ -19,6 +19,7 @@ print(a, b)
 
 predict = reg.predict(X.drop_duplicates())
 
+
 # %%
 import matplotlib.pyplot as plt
 
@@ -30,5 +31,5 @@ plt.ylabel("Nota")
 
 plt.plot(X.drop_duplicates()["cerveja"], predict)
 
-plt.legend(["Obsersado", f"y= {a:.3f} + {b:.3f} x"])
+plt.legend(["Observado", f"y= {a:.3f} + {b:.3f} x"])
 # %%
